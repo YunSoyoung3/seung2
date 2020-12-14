@@ -9,8 +9,8 @@ function draw() {
   background(220);
 
   fill(255);
-  textSize(100);
-  text(message[index], width/4, height/2);
+  textSize(50);
+  text(message[index], 10, height/2);
 }
 
 function mouseClicked(){
